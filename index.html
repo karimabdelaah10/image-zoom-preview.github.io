@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="zoomove.min.css">
+    <!-- jQuery CDN JS minified (must) -->
+    <link rel="stylesheet" href="example.css" />
+<!--    <link rel="stylesheet" href="pygments.css" />-->
+    <link rel="stylesheet" href="easyzoom.css" />
+
+
+</head>
+<body>
+
+<h1> Hello World</h1>
+<!--<div style="float: right; width: 310px; height: 400px; background: #EEE;"></div>-->
+
+<div class="easyzoom easyzoom--adjacent">
+    <a href="car.jpg">
+        <img src="bag.jpg" alt="" width="500" height="500" />
+    </a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="easyzoom.js"></script>
+
+<!-- Starting the ZooMove -->
+<script>
+    // Instantiate EasyZoom instances
+    var $easyzoom = $('.easyzoom').easyZoom();
+
+    // Get an instance API
+    // var api = $easyzoom.data('easyZoom');
+</script>
+</body>
+</html>
